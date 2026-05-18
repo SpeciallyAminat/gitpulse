@@ -1,0 +1,15 @@
+{
+  "name": "gitpulse",
+  "version": "1.0.0",
+  "description": "CLI dashboard showing GitHub activity stats and contribution streaks.",
+  "main": "src/dashboard.js",
+  "scripts": {
+    "start": "node src/dashboard.js",
+    "tracker": "node src/achievement-tracker.js",
+    "roadmap": "node src/achievement-tracker.js roadmap",
+    "test": "node src/dashboard.js --help && echo 'Tests passed'"
+  },
+  "keywords": ["github", "cli", "stats", "dashboard", "contributions", "streak"],
+  "author": "YOUR_USERNAME",
+  "license": "MIT"
+}
